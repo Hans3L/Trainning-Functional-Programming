@@ -4,7 +4,8 @@ package com.creativity.example.programmingfunctional.lambdas;
 public interface PorDefecto {
 
     abstract void getName(String name);
-    default String getNameForDefault(String name){
+
+    default String getNameForDefault(String name) {
         return name + " Default";
     }
 }

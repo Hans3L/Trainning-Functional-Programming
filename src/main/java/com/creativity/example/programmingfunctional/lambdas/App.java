@@ -1,6 +1,6 @@
 package com.creativity.example.programmingfunctional.lambdas;
 
-public class App implements PersonalInformation{
+public class App implements PersonalInformation {
 
 
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class App implements PersonalInformation{
     }
 
     @Override
-    public void miNombre (String nombre){
+    public void miNombre(String nombre) {
         System.out.println("Hola soy " + nombre);
     }
 }

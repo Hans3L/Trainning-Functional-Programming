@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ReferenciaMethods {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // clase anonima
 
@@ -64,8 +64,8 @@ public class ReferenciaMethods {
         listUser.add(new User("SHALOM"));
         listUser.add(new User("JERUSALEN"));
 
-         listUser.forEach((User nombre) -> nombre.mostrarNommbre()); //        = ()-> {};
-         listUser.forEach(User::mostrarNommbre);
+        listUser.forEach((User nombre) -> nombre.mostrarNommbre()); //        = ()-> {};
+        listUser.forEach(User::mostrarNommbre);
         /*
          * Referencia a un      Class::new               String::new       ()-> new String
          * Contructor
